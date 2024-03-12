@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" >
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="click">
+        <button onclick="claro()" class="tecla" id="tecl" type="submit"><b>Modo claro</b></button>
+        <button onclick="escuro()" class="botao" id="bot" type="submit"><b>Modo escuro</b></button>
+        <sub>&copy; Criado por Luciano R. </sub>
+    </div>
+    <div class="container">
+        <header>
+            <h1>Lista de tarefas</h1>
+        </header>
+
+    <form>
+        <input id="forma" type="text" name="nome" placeholder="Escreva as tarefas aqui!">
+        <button onclick="adicionarTarefa()" id="adit" type="button" name="botão">Adicionar</button>
+    </form>
+    <table>
+        <div id="tad">
+        <thead>
+            <tr>
+                <th>Tarefas a serem realizadas</th>
+                <button id="limparLista">Limpar lista</button>
+            </tr>
+        <tbody>
+            <tr>
+                <ul id="listasTarefas">
+                    <li></li>
+                </ul>
+            </tr>
+        </tbody>
+    </div>
+    </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

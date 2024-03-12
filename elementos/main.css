@@ -1,0 +1,180 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+div.click {
+    background-color: #06c410;
+    padding-top: 60px;
+}
+
+.tecla {
+    background-color: #5f5757;
+    color: #ffffff;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 100px;
+    position: relative;
+    margin: 110;
+    top: -60px;
+    left: 100px;
+    cursor: pointer;
+}
+
+.tecla:hover{
+    display: inline-block;
+    background: #ffffff;
+    color: #000000
+}
+
+.botao {
+    background-color: #555151;
+    color: #000000;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 100px;
+    position: relative;
+    top: -60px;
+    left: 100px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    display: inline-block;
+    background: #000000;
+    color: #ffffff
+}
+
+
+h1 {
+    color: #1ab0ca;
+    background-color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    position:relative ;
+    margin: 0px 0px 10px 0px;
+    padding-top: 30px;
+
+}
+
+
+#forma {
+    margin: 30px 0px 0px 39.7%;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #524b4b;
+    color: #ffffff;
+}
+
+#forma:hover {
+    background-color: #e7e7e7;
+    color: #000000;
+}
+
+#adit {
+    margin-left: 34px;
+    margin-bottom: 20%;
+    padding: 7px 8px 3.7px 8px;
+    background-color: red;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#adit:hover {
+    background-color: #06c410;
+    color: #000000;
+} 
+
+tbody {
+    display: inline-block;
+    left: 300px;
+}
+
+li {
+    display:block;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    top: -180px;
+}
+
+.linhaMeio { 
+    position: relative;
+    display: inline-block;
+    color: #585454;
+    font-size: 20px;
+}
+
+.modo-claro .linhaMeio:hover {
+    color: black;
+}
+
+/* Para o modo escuro */
+.modo-escuro .linhaMeio:hover {
+    color: white;
+}
+
+.linhaMeio::before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 50%; /* Posiciona no meio verticalmente */
+    left: -10px;
+    right: -10px;
+    border-bottom: 2px solid #4b4444; 
+}
+
+thead {
+    background-color: #ff07f3;
+    color: #ffffff;
+    position: absolute;
+    left: 585px;
+    bottom: 450px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+#limparLista {
+    position: absolute;
+    left: 990px;
+    top: 305px;
+    padding: 7px 8px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(65, 65, 64);
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+#limparLista:hover {
+    background-color:yellow;
+    color:black;
+}
+
+th {
+    padding: 10px 60px 10px 60px;
+}
+
+sub {
+    display:block;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position:static;
+    top: -150px;
+}
